@@ -17,12 +17,12 @@ Ce README est basé sur le projet [vagrant_utm](https://github.com/naveenrajm7/v
   📥 [Lien de téléchargement Vagrant](https://releases.hashicorp.com/vagrant/2.4.1/vagrant_2.4.1_darwin_arm64.dmg)
 
 ### **3. Attention aux VMs indisponibles dans UTM** ⚠️
-- **Important** : Si une machine virtuelle est **indisponible ou corrompue** dans UTM, cela peut provoquer des erreurs et faire planter UTM. 🚫💥
+- **Important** : Si une machine virtuelle est **indisponible ou corrompue** dans UTM, cela peut provoquer des erreurs et faire planter UTM.
 - Supprimez toute VM inaccessible avant de continuer. 🗑️
 
 ---
 
-## **Installation du plugin UTM pour Vagrant** 🛠️✨
+## **Installation du plugin UTM pour Vagrant** 🛠️
 
 1. Installez le plugin UTM :  
    ```bash
@@ -38,7 +38,7 @@ Ce README est basé sur le projet [vagrant_utm](https://github.com/naveenrajm7/v
 
 ---
 
-## **Création d’un projet Vagrant** 📂📋
+## **Création d’un projet Vagrant** 📂
 
 1. **Créez un dossier pour le projet :** 📁  
    ```bash

@@ -4,6 +4,8 @@ Cette documentation explique comment configurer et utiliser **Vagrant** avec le 
 
 Ce README est basé sur le projet [vagrant_utm](https://github.com/naveenrajm7/vagrant_utm/tree/main), développé par **naveenrajm7**, et reflète les informations disponibles à la date de **décembre 2024**. Il fournit une documentation adaptée pour l’utilisation du plugin **vagrant_utm** en combinaison avec Vagrant et UTM sur macOS (Apple Silicon). Pour des mises à jour ou des détails supplémentaires, veuillez consulter directement le dépôt GitHub officiel. 
 
+Ce document d’installation a été rédigé par Théo Delannoy (e4a, décembre 2024) dans le cadre de l’intégration de Vagrant et du plugin vagrant_utm avec UTM sur macOS Apple Silicon. 
+
 ---
 
 ## **Prérequis** 🛠️
@@ -16,7 +18,7 @@ Ce README est basé sur le projet [vagrant_utm](https://github.com/naveenrajm7/v
 - Téléchargez et installez **Vagrant 2.4.1** :  
   📥 [Lien de téléchargement Vagrant](https://releases.hashicorp.com/vagrant/2.4.1/vagrant_2.4.1_darwin_arm64.dmg)
 
-### **3. Attention aux VMs indisponibles dans UTM** ⚠️
+### **3. Attention aux VMs indisponibles dans UTM** 
 - **Important** : Si une machine virtuelle est **indisponible ou corrompue** dans UTM, cela peut provoquer des erreurs et faire planter UTM.
 - Supprimez toute VM inaccessible avant de continuer. 🗑️
 
@@ -87,7 +89,7 @@ Ce README est basé sur le projet [vagrant_utm](https://github.com/naveenrajm7/v
 
 ---
 
-## **Attention aux autorisations macOS** ⚠️
+## **Attention aux autorisations macOS** 
 
 Lors du premier lancement, macOS peut afficher des fenêtres demandant si le terminal peut **contrôler UTM**. Assurez-vous de donner les autorisations nécessaires :  
 ✅ Cliquez sur **Oui** ou **Autoriser** pour toutes les demandes.  

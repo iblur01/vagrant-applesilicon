@@ -11,8 +11,16 @@ Ce document d’installation a été rédigé par Théo Delannoy (e4a, décembre
 ## **Prérequis** 🛠️
 
 ### **1. Installer UTM (versions compatibles uniquement)** ⚙️
+
 - Téléchargez et installez UTM, version **4.5.1** ou **4.5.2** :  
-  📥 [Lien de téléchargement UTM](https://objects.githubusercontent.com/github-production-release-asset-2e65be/181042062/0a3bb140-dfd6-43e2-acb8-94089c0d2f64?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241128T094052Z&X-Amz-Expires=300&X-Amz-Signature=edb71a77d90c7338daeef1a3529aac8570485425d3828320b32d566c715b7831&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DUTM.dmg&response-content-type=application%2Foctet-stream)
+  📥 [Lien de téléchargement UTM](https://github.com/utmapp/UTM/releases/tag/v4.5.2)  
+
+  **Instructions** :  
+  1. Rendez-vous dans la section **Assets** en bas de la page des releases.  
+  2. Téléchargez le fichier `UTM.dmg`.  
+  3. Ouvrez le fichier `.dmg` téléchargé.  
+  4. Suivez l'installation classique sur macOS en glissant l'icône **UTM** dans le dossier **Applications**.  
+
 
 ### **2. Installer Vagrant (version obligatoire)** 🧰
 - Téléchargez et installez **Vagrant 2.4.1** :  

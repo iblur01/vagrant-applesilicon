@@ -2,6 +2,8 @@
 
 Cette documentation explique comment configurer et utiliser **Vagrant** avec le fournisseur **UTM** pour gérer des machines virtuelles sur macOS (Apple Silicon). 
 
+Ce README est basé sur le projet [vagrant_utm](https://github.com/naveenrajm7/vagrant_utm/tree/main), développé par **naveenrajm7**, et reflète les informations disponibles à la date de **décembre 2024**. Il fournit une documentation adaptée pour l’utilisation du plugin **vagrant_utm** en combinaison avec Vagrant et UTM sur macOS (Apple Silicon). Pour des mises à jour ou des détails supplémentaires, veuillez consulter directement le dépôt GitHub officiel. 
+
 ---
 
 ## **Prérequis** 🛠️

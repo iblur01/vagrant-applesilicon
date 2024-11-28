@@ -10,6 +10,39 @@ Ce document d’installation a été rédigé par Théo Delannoy (e4a, décembre
 
 ## **Prérequis** 🛠️
 
+Avant de commencer, il est important de s'assurer que vous maîtrisez et avez configuré correctement certains outils nécessaires au bon déroulement des étapes. Voici ce dont vous aurez besoin :
+
+---
+
+#### **1. Bases sur l’installation d’applications tierces sous macOS** 💡  
+- Savoir installer des applications tierces depuis des fichiers `.dmg`, `.pkg` ou via des gestionnaires de paquets comme **Homebrew**.
+- Exemple : Télécharger un fichier, l’ouvrir, glisser l’application dans le dossier **Applications**.
+
+---
+
+#### **2. Xcode et outils de développement macOS** 🛠️  
+Certains outils de ligne de commande nécessitent les utilitaires de développement macOS :
+- Installez les outils de ligne de commande Xcode si ce n’est pas déjà fait :
+  ```bash
+  xcode-select --install
+  ```
+- Cela installera les outils nécessaires comme `git`, `make`, et d'autres commandes.
+
+---
+
+#### **3. Homebrew (Gestionnaire de paquets)** 🍺  
+**Homebrew** est un gestionnaire de paquets essentiel pour installer rapidement des outils et dépendances sur macOS. Si vous ne l’avez pas encore installé :
+1. Exécutez cette commande dans le terminal :
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2. Vérifiez l'installation avec :
+   ```bash
+   brew --version
+   ```
+
+## **Utilitaires à installer** 🛠️
+
 ### **1. Installer UTM (versions compatibles uniquement)** ⚙️
 
 - Téléchargez et installez UTM, version **4.5.1** ou **4.5.2** :  

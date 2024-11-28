@@ -54,6 +54,8 @@ Certains outils de ligne de commande nécessitent les utilitaires de développem
   3. Ouvrez le fichier `.dmg` téléchargé.  
   4. Suivez l'installation classique sur macOS en glissant l'icône **UTM** dans le dossier **Applications**.  
 
+  ![Screenshot](assets/versionUTM.png)
+
 
 ### **2. Installer Vagrant (version obligatoire)** 🧰
 - Téléchargez et installez **Vagrant 2.4.1** :  
@@ -103,12 +105,11 @@ Certains outils de ligne de commande nécessitent les utilitaires de développem
 
 ## **Démarrage de la machine virtuelle** 🚀
 
-1. **Lancez la VM avec Vagrant :** 🖥️  
+1. **Lancez la VM avec Vagrant :** 
    ```bash
    vagrant up
    ```
    Pendant l’exécution, vous verrez un message similaire :  
-   🛠️
    ```
    Bringing machine 'default' up with 'utm' provider...
    ==> default: Importing UTM virtual machine file ...
@@ -117,10 +118,12 @@ Certains outils de ligne de commande nécessitent les utilitaires de développem
 
 2. **Aller dans UTM pour confirmer le téléchargement :** ✅  
    - Une fenêtre apparaîtra pour confirmer le téléchargement de la VM. Acceptez et suivez les instructions.  
-   - **Vérifiez que la nouvelle VM est listée en dernière position dans l’interface UTM.** 📋
+   ![Screenshot](assets/download_vm.png)
 
 3. **Confirmez dans le terminal :**  
    Une fois le téléchargement terminé, tapez `y` pour continuer. 
+
+![Screenshot](assets/vagrant_up.png)
 
 4. **Connexion SSH à la VM :** 🔐  
    Une fois la machine démarrée, connectez-vous avec :  
@@ -152,7 +155,9 @@ Stderr: ... Error: La connexion est invalide. (-609)
 - **Cause probable :** Une VM inaccessible ou corrompue dans UTM.  
 - **Solution :**  
   1. Ouvrez UTM et supprimez toute VM qui ne fonctionne pas. 🗑️  
-  2. Assurez-vous que la VM importée est bien la dernière dans la liste.
+
+  ![Screenshot](assets/VM_Indispo.png)
+
 
 ---
 
